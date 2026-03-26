@@ -1,3 +1,14 @@
+import Header from "./Components/Header"
+import Main from "./Components/Main"
+import WindowTracker from "./Components/WindowTracker"
+
 export default function App(){
-  return <h1>Hello Reactors</h1>
+  return (
+    <>
+      <Header />
+      <Main />
+
+      {/* <WindowTracker /> */}
+    </>
+  )
 }
